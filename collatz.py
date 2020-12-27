@@ -12,6 +12,7 @@ def main():
     while numero_usuario > 1:
         print(collatz(numero_usuario))
         numero_usuario = collatz(numero_usuario)
+    
 
 if __name__ == "__main__":
     main()
